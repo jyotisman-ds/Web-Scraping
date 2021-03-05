@@ -32,3 +32,27 @@ The output produced is a csv file which looks as follows -
 |Young Adult|In stock (19 available)|£22.65|The Requiem Red|
 |Poetry|In stock (19 available)|£20.66|Shakespeare's Sonnets|
 |Default|In stock (19 available)|£13.99|"Starving Hearts (Triangular Trade Trilogy, /#1)"|
+
+The url used here is an artificially created website for the purposes of practicing your web scraping codes. It has a ton of different html, css or javascript elements to scrape.
+
+## BeautifulSoup
+
+The relevant code can be found [here](https://github.com/jyotisman-ds/Web-Scraping/blob/main/BS_challenge.py).
+
+BeautifulSoup is sort of the go-to library for scraping web elements. The main advantage it provides as compared to let's say scrapy is its ability to adapt to changing websites.
+
+We use the requests library in python to send the http requests. The idea then is to create a BeautifulSoup object and then use the several methods to access specific elements based on its type, class, etc.
+
+We scrape a real website here, the Amazon [best sellers](https://github.com/jyotisman-ds/Web-Scraping/blob/main/BS_challenge.py) website. We scrape the product name and the total number of reviews for each product.
+
+## Selenium (+ BeautifulSoup)
+
+A combination of Selenium and BeautifulSoup is used in the [code](https://github.com/jyotisman-ds/Web-Scraping/blob/main/selenium_challenge.py) here to navigate to a page starting from a url before scraping its contents.
+
+Selenium is a library that automates browsers. It can go all the way from loading a browser to navigating through every clickable link and also taking care of pop-up windows.
+
+We again scrape a real [website](https://sdsclub.com/). We go through several clickable links before finally scraping the required objects with BeautifulSoup. We make use of the 'DesiredCapabilities' method in the selenium library to disable the pop-ups in Chrome.
+
+## Credits
+
+Thanks to Udemy for hosting this interesting course on Modern [Web Scraping](https://www.udemy.com/course/modern-web-scraping-in-python/) and also to the creators/lecturers of the course for the wonderful content.
