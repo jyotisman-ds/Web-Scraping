@@ -28,7 +28,6 @@ The output produced is a csv file which looks as follows -
 
 |category|in_stock|price|title|
 | --- | --- | --- | --- |
-
 |Historical Fiction|In stock (20 available)|£53.74|Tipping the Velvet|
 |Young Adult|In stock (19 available)|£22.65|The Requiem Red|
 |Poetry|In stock (19 available)|£20.66|Shakespeare's Sonnets|
