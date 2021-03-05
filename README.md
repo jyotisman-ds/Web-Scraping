@@ -51,7 +51,7 @@ A combination of Selenium and BeautifulSoup is used in the [code](https://github
 
 Selenium is a library that automates browsers. It can go all the way from loading a browser to navigating through every clickable link and also taking care of pop-up windows.
 
-We again scrape a real [website](https://sdsclub.com/). We go through several clickable links before finally scraping the required objects with BeautifulSoup. We make use of the 'DesiredCapabilities' method in the selenium library to disable the pop-ups in Chrome.
+We again scrape a real [website](https://sdsclub.com/). We go through several clickable links before finally scraping the required objects with BeautifulSoup. We make use of the 'DesiredCapabilities' method in the selenium library to disable the pop-ups in Chrome. Special care was also needed to scrape contents sharing similar class names but different parent classes.
 
 ## Credits
 
