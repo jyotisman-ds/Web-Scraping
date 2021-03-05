@@ -47,7 +47,7 @@ We scrape a real website here, the Amazon [best sellers](https://github.com/jyot
 
 ## Selenium (+ BeautifulSoup)
 
-A combination of Selenium and BeautifulSoup is used in the [code](https://github.com/jyotisman-ds/Web-Scraping/blob/main/selenium_challenge.py) here to navigate to a page starting from a url before scraping its contents.
+A combination of Selenium and BeautifulSoup is used in the [code](https://github.com/jyotisman-ds/Web-Scraping/blob/main/selenium_challenge.py) here to navigate to a page starting from a given url before scraping the contents of the final webpage.
 
 Selenium is a library that automates browsers. It can go all the way from loading a browser to navigating through every clickable link and also taking care of pop-up windows.
 
