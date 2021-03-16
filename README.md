@@ -2,7 +2,7 @@
 _Web scraping with Scrapy, BeautifulSoup and Selenium_
 
 - [Overview](#overview)
-- [Scrapy](#the-problem)
+- [Scrapy](#scrapy)
 - [BeautifulSoup](#beautifulsoup)
 - [Selenium (+ BeautifulSoup)](#selenium-(+-beautifulsoup))
 - [Credits](#credits)
